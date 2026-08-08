@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: #471b81;
+}
+<style>
+  img {
+    width: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+</style>
