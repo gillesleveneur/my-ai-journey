@@ -6,10 +6,9 @@ body {
 h1 {
     color: #471b81;
 }
-<style>
-  img {
-    width: 10px;
+
+img {
+    width: 500px;
     max-width: 100%;
     height: auto;
-  }
-</style>
+}
