@@ -1,14 +1,64 @@
 body {
     font-family: Arial, sans-serif;
     margin: 40px;
+    max-width: 900px;
 }
 
 h1 {
     color: #471b81;
+    font-size: 42px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.purpose {
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 700px;
 }
 
 img {
     width: 500px;
     max-width: 100%;
     height: auto;
+    margin: 30px 0;
+}
+
+.project {
+    margin-top: 30px;
+    padding: 25px;
+    border-left: 4px solid #471b81;
+}
+
+.project h3 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+a {
+    color: #471b81;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.intro {
+    font-size: 21px;
+    line-height: 1.5;
+    max-width: 700px;
+}
+.project-date {
+    margin-top: 60px;
+    font-size: 14px;
+    font-style: italic;
 }
