@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understand architecture: migrating my Travel Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-intro {
+            margin-bottom: 25px;
+        }
+
+        .architecture-illustration {
+            margin: 0 0 30px 0;
+        }
+
+        .architecture-illustration img {
+            width: 900px;
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+            display: block;
+        }
+
+        .architecture-illustration figcaption {
+            margin-top: 10px;
+            color: #777;
+            font-size: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html" class="back">← My AI Journey</a>
+
+    <h1>Understand architecture: migrating my Travel Planner</h1>
+
+    <p class="project-intro">
+        What happened when I wanted to move my app away from Replit — and discovered what was under the hood.
+    </p>
+
+    <figure class="architecture-illustration">
+        <img src="images/architecture-migration.png" alt="The same person moving from a simple AI-assisted tent to a house under construction with stronger foundations">
+        <figcaption>AI-generated illustration.</figcaption>
+    </figure>
+
+    <section class="project-section">
+
+        <h2>What I wanted to solve for</h2>
+
+        <p>
+            When I built my Travel Planner app, my main question was simple:
+        </p>
+
+        <p>
+            <strong>Could I turn an idea into a working application with AI?</strong>
+
+            The answer was <strong>YES</strong>.
+        </p>
+
+        <p>
+            Using Replit, I could describe what I wanted, generate code, test it and progressively build a functional MVP.
+        </p>
+
+        <p>
+            It felt as simple as:
+
+            <strong>“I have an idea. Let's build it.”</strong>
+        </p>
+
+        <p>
+            But when I wanted more control over the application, I decided to move it away from Replit and host it myself.
+        </p>
+
+        <p>
+            I thought the migration would mostly be about moving the code. Instead, it made me discover everything that was happening under the hood.
+        </p>
+
+    </section>
+
+    <section class="project-section">
+
+        <h2>What I had to do to migrate...</h2>
+
+        <p>
+            The migration forced me to look behind the application.
+        </p>
+
+        <p>
+            I suddenly had to understand:
+        </p>
+
+        <ul>
+            <li>Where does the frontend run?</li>
+            <li>Where is the backend?</li>
+            <li>Where is the database?</li>
+            <li>How do they communicate?</li>
+            <li>How does the domain connect to the application?</li>
+            <li>Where are configuration and secrets stored?</li>
+        </ul>
+
+        <p>
+            I realized that an application isn't one thing. It's a collection of components that need to work together.
+        </p>
+
+        <p>
+            That's when the tent became a house in my mind.
+        </p>
+
+        <p>
+            A tent is enough to get started. You don't need to understand much about what's underneath.
+        </p>
+
+        <p>
+            But when you want to build a house, the foundations matter.
+        </p>
+
+        <p>
+            The product stayed the same. The migration simply forced me to understand how it was built and what it needed to run on my own infrastructure.
+        </p>
+
+    </section>
+
+    <section class="project-section">
+
+        <h2>What I learned</h2>
+
+        <h3>AI can hide complexity — and that's useful</h3>
+
+        <p>
+            AI made it possible for me to build without understanding everything underneath.
+        </p>
+
+
+        <h3>Migration became a learning experience</h3>
+
+        <p>
+            I started with a simple goal: move my application to my own infrastructure.
+        </p>
+
+        <p>
+            Along the way, I discovered the architecture that made the application work.
+        </p>
+
+        <p>
+            The experience made me realize that building fast is only part of the challenge. Building something that can be maintained, understood and evolved over time is another.
+        </p>
+
+        <h3>My biggest takeaway</h3>
+
+        <p>
+            <strong>AI can help me build faster.<br>Understanding architecture helps me build for the long term.</strong>
+        </p>
+
+        <p>
+            <i>Same need. Different scale.</i>
+        </p>
+
+    </section>
+
+    <p class="project-date">
+        Project started: August 2026
+    </p>
+
+</body>
+
+</html>
