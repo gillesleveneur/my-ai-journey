@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start with the problem. Add AI where it helps</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .project-intro {
+            margin-bottom: 25px;
+        }
+
+        .mealmate-illustration {
+            margin: 0 0 30px 0;
+        }
+
+        .mealmate-illustration img {
+            width: 900px;
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+            display: block;
+        }
+
+        .mealmate-illustration figcaption {
+            margin-top: 10px;
+            color: #777;
+            font-size: 14px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="index.html" class="back">← My AI Journey</a>
+
+    <h1>Start with the problem. Add AI where it helps</h1>
+
+    <p class="project-intro">
+        What building a meal planner taught me about where AI actually creates value — and where it simply gets in the way.
+    </p>
+
+    <figure class="mealmate-illustration">
+        <img src="images/start-with-the-problem-add-ai-where-it-helps.png" alt="AI helping with meal planning while leaving simple decisions to the user">
+        
+    </figure>
+
+    <section class="project-section">
+
+        <h2>What I wanted to solve for</h2>
+
+        <p>
+            When I started building my MealMate app, my main question was simple:
+        </p>
+
+        <p>
+            <strong>Could I use AI to make weekly meal planning easier?</strong>
+        </p>
+
+        <p>
+            The obvious answer was to use AI to generate meals, recipes and ingredients.
+        </p>
+
+        <p>
+            But as I started using the application, I realized that the real problem wasn't simply creating meals with AI.
+        </p>
+
+        <p>
+            Planning meals involves many small human decisions: add something, change it, remove it, find an alternative, explore an idea and choose what works.
+        </p>
+
+        <p>
+            I didn't want AI to get in the way of those decisions.
+        </p>
+
+    </section>
+
+    <section class="project-section">
+
+        <h2>What I discovered...</h2>
+
+        <p>
+            My first versions were too eager to use AI.
+        </p>
+
+        <p>
+            Changing a meal could trigger recipe and ingredient generation. The application was trying to do too much, too early.
+        </p>
+
+        <p>
+            I realized that <strong>planning and enrichment are two different problems</strong>.
+        </p>
+
+        <p>
+            Planning should be fast and lightweight:
+        </p>
+
+        <ul>
+            <li>Add a meal</li>
+            <li>Rename it</li>
+            <li>Remove it</li>
+            <li>Find an alternative</li>
+            <li>Explore</li>
+            <li>Choose</li>
+        </ul>
+
+        <p>
+            Once the plan is ready, AI can do the heavier work: generating recipes and ingredients.
+        </p>
+
+        <p>
+            This led to a much simpler flow:
+        </p>
+
+        <p>
+            <strong>PLAN → decide<br>
+            GENERATE → enrich<br>
+            SHOP → buy<br>
+            COOK → execute</strong>
+        </p>
+
+        <p>
+            AI became part of the workflow — not the workflow itself.
+        </p>
+
+    </section>
+
+    <section class="project-section">
+
+        <h2>What I learned</h2>
+
+        <h3>Start with the problem, not the AI</h3>
+
+        <p>
+            It's easy to ask: <strong>“Where can I add AI?”</strong>
+        </p>
+
+        <p>
+            A better question is: <strong>“Where does AI actually remove friction or create value?”</strong>
+        </p>
+
+        <p>
+            Sometimes the answer is AI. Sometimes the best solution is simply a fast, deterministic interaction.
+        </p>
+
+        <h3>Context matters as much as the model</h3>
+
+        <p>
+            One of my biggest technical learnings was the importance of context.
+        </p>
+
+        <p>
+            Before asking AI to act, MealMate builds the relevant context: the current request, meal and slot, conversation, preferences and dietary constraints.
+        </p>
+
+        <p>
+            The AI model is therefore only one component of a larger context pipeline.
+        </p>
+
+        <h3>My biggest takeaway</h3>
+
+        <p>
+            <strong>AI is not the product.<br>The user's problem is the product.</strong>
+        </p>
+
+        <p>
+            AI should step in where it improves the experience — and stay out of the way when it doesn't.
+        </p>
+
+        <p>
+            <strong>Start with the problem. Add AI where it helps.</strong>
+        </p>
+
+    </section>
+
+    <p class="project-date">
+        Project started: September 2026
+    </p>
+
+</body>
+
+</html>
